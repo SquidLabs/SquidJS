@@ -1,3 +1,6 @@
 {
-  "extends": "airbnb-base/legacy"
+  "env": {
+    "browser": true
+  },
+  "extends": ["airbnb-base", "airbnb-flow"]
 }
