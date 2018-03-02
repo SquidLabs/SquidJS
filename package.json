@@ -4,6 +4,7 @@
   "description": "Functional Programming Framework",
   "main": "index.js",
   "scripts": {
+    "build": "sjs src/*js --out-dir out",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,9 @@
     "@sweet-js/cli": "^3.0.13",
     "@sweet-js/helpers": "^4.0.1",
     "babel-plugin-transform-decorators": "^6.24.1",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
   }
 }
