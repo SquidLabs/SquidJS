@@ -5,11 +5,13 @@
 
 export default class{
     constructor(el: Element) {
+        //make deep copies?
         this.attributes = el.attributes;
         this.classList = el.classList;
         this.id = el.id;
         this.tagName = el.tagName;
     }
+
     // check global tree for element
     attributes: NamedNodeMap,
     classList: DOMTokenList,

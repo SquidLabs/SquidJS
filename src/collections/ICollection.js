@@ -1,5 +1,5 @@
 //@flow
 
-export interface Iterable {
+export interface ICollection {
     toString(): string;
 }
