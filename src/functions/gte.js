@@ -1,5 +1,5 @@
 // @flow
 
-export default function gte(a: any, b: any) {
+export default function gte(a: number, b: number) {
     return a >= b;
 ;}
