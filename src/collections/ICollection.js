@@ -1,5 +1,5 @@
-//@flow
+// @flow
 
 export interface ICollection {
-    toString(): string;
+  toString(): string;
 }

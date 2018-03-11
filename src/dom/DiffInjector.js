@@ -3,15 +3,15 @@ import SquidElement from "./SquidElement";
 // @flow
 
 export default class DiffInjector {
-    constructor() {
+  constructor() {
 
-    }
+  }
 
-    register(worker: IDiffWorker) {
+  register(worker: IDiffWorker) {
 
-    }
+  }
 
-    inject(element: SquidElement){
+  inject(element: SquidElement) {
 
-    }
+  }
 }

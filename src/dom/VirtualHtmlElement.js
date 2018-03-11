@@ -5,14 +5,14 @@ import virtualElement from "./virtualElement";
 // current element for time being, if select on element parse tree down
 
 
-export default class extends virtualElement{
-    constructor(el: HTMLElement) {
-        base(el);        
-    }
-    hidden: boolean,
-    dataset: DOMStringMap,
-    nonce: string,
-    style: CSSStyleDeclaration,
-    title: string
+export default class extends virtualElement {
+  constructor(el: HTMLElement) {
+    base(el);
+  }
+  hidden: boolean,
+  dataset: DOMStringMap,
+  nonce: string,
+  style: CSSStyleDeclaration,
+  title: string
 }
 

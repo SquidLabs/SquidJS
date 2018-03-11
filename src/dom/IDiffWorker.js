@@ -1,4 +1,4 @@
 // @flow
 
-export  interface IDiffWorker {
+export interface IDiffWorker {
 }
