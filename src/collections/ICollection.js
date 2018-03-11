@@ -1,5 +1,9 @@
 // @flow
 
-export interface ICollection {
-  toString(): string;
-}
+export interface ICollection {  
+  p: number 
+};
+
+
+
+

@@ -1,6 +1,6 @@
 // @flow
 import DiffInjector from './DiffInjector';
-import IDiffWorker from './IDiffWorker';
+import { IDiffWorker } from './IDiffWorker';
 import VirtualElement from './VirtualElement';
 
 export default class SquidElement {
