@@ -1,5 +1,5 @@
 {
-  "name": "SquidJS",
+  "name": "squidjs",
   "version": "0.0.2",
   "description": "Functional Programming Framework",
   "main": "index.js",
