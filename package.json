@@ -3,12 +3,6 @@
   "version": "0.0.1",
   "description": "Functional Programming Framework",
   "main": "index.js",
-  "scripts": {
-    "start": "webpack --config webpack.config.js",
-    "build": "webpack",
-    "flow": "flow",
-    "test": "karma start --single-run --browsers Chrome karma.conf.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SquidLabs/SquidJS.git"
